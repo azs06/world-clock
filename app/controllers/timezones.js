@@ -25,7 +25,7 @@ export default Ember.Controller.extend({
       this.set('selectedTimezone',{
         name: selectedLabel,
         offset: selectedValue
-      })
+      });
     },
     add: function() {
       var timezone = this.store.createRecord('timezone', {
