@@ -1,0 +1,7 @@
+<h2>Local Time: <strong>{{localTime}}</strong></h2>
+
+<ul class="list-group">
+  {{#each model as |time|}}
+      <li class="list-group-item bg-inverse">{{time.name}}: <strong class="text-help">{{time.time}}</strong></li>
+  {{/each}}
+</ul>

@@ -8,6 +8,9 @@ module.exports = function(defaults) {
   });
 
   // Use `app.import` to add additional libraries to the generated
+  app.import('bower_components/moment/moment.js');
+  app.import('bower_components/moment-timezone/builds/moment-timezone-with-data-2010-2020.js');
+  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
   // output files.
   //
   // If you need to use different assets in different
